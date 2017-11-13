@@ -14,6 +14,13 @@
 		439695401FB89F4000CDAFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4396953F1FB89F4000CDAFE3 /* Assets.xcassets */; };
 		439695431FB89F4000CDAFE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439695411FB89F4000CDAFE3 /* LaunchScreen.storyboard */; };
 		4396954E1FB89F4000CDAFE3 /* Xylophone_FunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396954D1FB89F4000CDAFE3 /* Xylophone_FunTests.swift */; };
+		43DAEE551FB9D73A0014454A /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43DAEE541FB9D73A0014454A /* note1.wav */; };
+		43DAEE5C1FB9D7730014454A /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43DAEE561FB9D7720014454A /* note3.wav */; };
+		43DAEE5D1FB9D7730014454A /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43DAEE571FB9D7730014454A /* note2.wav */; };
+		43DAEE5E1FB9D7730014454A /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43DAEE581FB9D7730014454A /* note5.wav */; };
+		43DAEE5F1FB9D7730014454A /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43DAEE591FB9D7730014454A /* note6.wav */; };
+		43DAEE601FB9D7730014454A /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43DAEE5A1FB9D7730014454A /* note4.wav */; };
+		43DAEE611FB9D7730014454A /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43DAEE5B1FB9D7730014454A /* note7.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,13 @@
 		439695491FB89F4000CDAFE3 /* Xylophone FunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xylophone FunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4396954D1FB89F4000CDAFE3 /* Xylophone_FunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xylophone_FunTests.swift; sourceTree = "<group>"; };
 		4396954F1FB89F4000CDAFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DAEE541FB9D73A0014454A /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		43DAEE561FB9D7720014454A /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		43DAEE571FB9D7730014454A /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		43DAEE581FB9D7730014454A /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		43DAEE591FB9D7730014454A /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		43DAEE5A1FB9D7730014454A /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		43DAEE5B1FB9D7730014454A /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 				439695341FB89F4000CDAFE3 /* Xylophone Fun */,
 				4396954C1FB89F4000CDAFE3 /* Xylophone FunTests */,
 				439695331FB89F4000CDAFE3 /* Products */,
+				43DAEE531FB9D70B0014454A /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +112,20 @@
 				4396954F1FB89F4000CDAFE3 /* Info.plist */,
 			);
 			path = "Xylophone FunTests";
+			sourceTree = "<group>";
+		};
+		43DAEE531FB9D70B0014454A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				43DAEE541FB9D73A0014454A /* note1.wav */,
+				43DAEE571FB9D7730014454A /* note2.wav */,
+				43DAEE561FB9D7720014454A /* note3.wav */,
+				43DAEE5A1FB9D7730014454A /* note4.wav */,
+				43DAEE581FB9D7730014454A /* note5.wav */,
+				43DAEE591FB9D7730014454A /* note6.wav */,
+				43DAEE5B1FB9D7730014454A /* note7.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +211,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DAEE601FB9D7730014454A /* note4.wav in Resources */,
+				43DAEE551FB9D73A0014454A /* note1.wav in Resources */,
+				43DAEE5F1FB9D7730014454A /* note6.wav in Resources */,
 				439695431FB89F4000CDAFE3 /* LaunchScreen.storyboard in Resources */,
 				439695401FB89F4000CDAFE3 /* Assets.xcassets in Resources */,
+				43DAEE5D1FB9D7730014454A /* note2.wav in Resources */,
+				43DAEE611FB9D7730014454A /* note7.wav in Resources */,
 				4396953B1FB89F4000CDAFE3 /* Main.storyboard in Resources */,
+				43DAEE5C1FB9D7730014454A /* note3.wav in Resources */,
+				43DAEE5E1FB9D7730014454A /* note5.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
