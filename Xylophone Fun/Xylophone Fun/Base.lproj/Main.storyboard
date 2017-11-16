@@ -30,7 +30,7 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRN-oB-pn1">
                                 <rect key="frame" x="21" y="180" width="333" height="60"/>
-                                <color key="backgroundColor" red="0.98823529409999999" green="0.91372549020000005" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.48966437781999611" blue="0.30466084145038064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Xa1-uw-8vU"/>
                                 </constraints>
